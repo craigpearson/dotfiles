@@ -1,0 +1,35 @@
+cr_sdk_initialize: Adobe Photoshop Camera Raw 14.0.1 (Macintosh), version 14.0.1x952, 64-bit, Release
+gDNGMaxSIMD: 3
+Memory allocator: baseline (cr_memory_allocator)
+TBB threading: no
+libdispatch threading: yes
+thread type: dispatch
+ACE thread type: dispatch
+PatchMatch initialized (version 5.5.0.0). Using 8 threads.
+OS: 11.6.1
+CPU: Intel(R) Core(TM) i7-4770HQ CPU @ 2.20GHz
+MPProcessorCount (hyperthreading = false): 4
+MPProcessorCount (hyperthreading = true): 8
+MPThreadCount: 8
+std::thread::hardware_concurrency: 8
+AVX support: yes
+AVX2 support: yes
+AVX512 support: no
+System physical RAM: 16 GB
+Initialize GPU system
+Read GPU config
+Safe load GPU
+Building pipeline states for Intel Iris Pro Graphics
+Loaded GPU system: Metal
+GPU primary driver version: 11.6.1
+GPU device count: 1
+GPU device names: Intel Iris Pro Graphics
+GPU3 allow list: no
+GPU3 deny list: yes
+*** GPU Warning: GPU model is deny-listed for GPU3. ***
+GPU Init Status (part 1): I2_GPU2
+GPU3 Hard Status Result (part 1): fail_deny_list_gpu3
+GPU3 Soft Status Result (part 1): not_checked
+Intel Compiler: no
+Terminate GPU system
+cr_sdk_terminate

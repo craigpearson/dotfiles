@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>code</key>
+	<string>041b4e4ff3264ef14eb5e05acae40391</string>
+	<key>email</key>
+	<string>hello@craigpearson.co.uk</string>
+	<key>expiration_date</key>
+	<string>never</string>
+	<key>license_code</key>
+	<string>TWR-****-****-****-6B5E</string>
+	<key>machine</key>
+	<string>af5a1851fe3382a2912b87eecce2b4e7</string>
+	<key>plan</key>
+	<string>PRO</string>
+	<key>product</key>
+	<string>tower</string>
+	<key>product_version</key>
+	<string>6.0</string>
+	<key>type</key>
+	<string>MULTI</string>
+	<key>user</key>
+	<string>b010b0bf8d1bed37ef96e4998e6733ee</string>
+	<key>uuid</key>
+	<string>48FAD938-E7A0-4F60-BE4A-622526A85339</string>
+</dict>
+</plist>

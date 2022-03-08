@@ -1,0 +1,27 @@
+{
+  "backgroundColor" : {
+    "version" : 3,
+    "alpha" : 1,
+    "hexValue" : "#1D1E1E"
+  },
+  "fontName" : "Menlo-Regular",
+  "fontSize" : 11,
+  "identifier" : "2D7737A9-DE45-4E92-8F71-5CF0A44C8099",
+  "addedColor" : {
+    "alpha" : 0.25,
+    "version" : 3,
+    "hexValue" : "#899C24"
+  },
+  "textColor" : {
+    "alpha" : 0.75,
+    "version" : 3,
+    "hexValue" : "#DCDDDD"
+  },
+  "name" : "Monokai",
+  "deletedColor" : {
+    "hexValue" : "#9F2B33",
+    "alpha" : 0.34999999999999998,
+    "version" : 3
+  },
+  "version" : 4
+}

@@ -1,0 +1,27 @@
+{
+  "version" : 4,
+  "fontSize" : 11,
+  "backgroundColor" : {
+    "alpha" : 1,
+    "hexValue" : "#FFFFFF",
+    "version" : 3
+  },
+  "fontName" : "Menlo-Regular",
+  "identifier" : "15A0EC5D-107C-428C-9F00-C8C9BACDF6FD",
+  "addedColor" : {
+    "version" : 3,
+    "alpha" : 0.14999999999999999,
+    "hexValue" : "#62DA38"
+  },
+  "deletedColor" : {
+    "hexValue" : "#FF3A2F",
+    "alpha" : 0.14999999999999999,
+    "version" : 3
+  },
+  "name" : "Default",
+  "textColor" : {
+    "hexValue" : "#000000",
+    "version" : 3,
+    "alpha" : 0.5
+  }
+}

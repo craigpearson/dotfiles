@@ -1,0 +1,5 @@
+[user]
+	name = Craig Pearson
+	email = hello@craigpearson.co.uk
+[core]
+	excludesfile = /Users/craigpearson/.gitignore

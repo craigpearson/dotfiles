@@ -1,0 +1,27 @@
+{
+  "name" : "Twilight",
+  "fontSize" : 11,
+  "identifier" : "202FCD12-3D76-44FF-BDD6-D8361CEA1A94",
+  "deletedColor" : {
+    "version" : 3,
+    "alpha" : 0.40000000000000002,
+    "hexValue" : "#D15120"
+  },
+  "version" : 4,
+  "textColor" : {
+    "version" : 3,
+    "alpha" : 0.84999999999999998,
+    "hexValue" : "#DCDDDD"
+  },
+  "backgroundColor" : {
+    "version" : 3,
+    "alpha" : 1,
+    "hexValue" : "#14191F"
+  },
+  "addedColor" : {
+    "alpha" : 0.29999999999999999,
+    "hexValue" : "#81AF34",
+    "version" : 3
+  },
+  "fontName" : "Menlo-Regular"
+}
