@@ -1,0 +1,3 @@
+Bounds of image A are: 1000 and 1000
+Bounds of image B are: 1000 and 1000
+CalculateAutoTone: atvSDP

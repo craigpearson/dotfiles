@@ -6,83 +6,13 @@
 	<array>
 		<dict>
 			<key>fileURL</key>
-			<string>file:///Users/craigpearson/code/minix-x8h-ubuntu-home-server/</string>
+			<string>file:///Users/craigpearson/code/open-source/wordpress-develop/</string>
 			<key>lastOpenedDate</key>
 			<real>0.0</real>
 			<key>name</key>
-			<string>minix-x8h-ubuntu-home-server</string>
+			<string>wordpress-develop</string>
 			<key>repositoryIdentifier</key>
-			<string>3FF789E9-15EB-4614-A0FC-1B6FB7D4CEC8</string>
-			<key>type</key>
-			<integer>2</integer>
-			<key>valid</key>
-			<true/>
-		</dict>
-		<dict>
-			<key>fileURL</key>
-			<string>file:///Users/craigpearson/code/private/dotfiles/</string>
-			<key>lastOpenedDate</key>
-			<real>1645835308.082849</real>
-			<key>name</key>
-			<string>dotfiles</string>
-			<key>repositoryIdentifier</key>
-			<string>EA7A6108-305F-4EC9-B04E-A480896E569A</string>
-			<key>type</key>
-			<integer>2</integer>
-			<key>valid</key>
-			<true/>
-		</dict>
-		<dict>
-			<key>fileURL</key>
-			<string>file:///Users/craigpearson/code/mac-dev-playbook/</string>
-			<key>lastOpenedDate</key>
-			<real>1645809942.2749081</real>
-			<key>name</key>
-			<string>mac-dev-playbook</string>
-			<key>repositoryIdentifier</key>
-			<string>4AAA35A4-56D5-4882-B545-CAA557FFBD6E</string>
-			<key>type</key>
-			<integer>2</integer>
-			<key>valid</key>
-			<true/>
-		</dict>
-		<dict>
-			<key>fileURL</key>
-			<string>file:///Users/craigpearson/code/personal/navi/</string>
-			<key>lastOpenedDate</key>
-			<real>1643846104.8496809</real>
-			<key>name</key>
-			<string>navi</string>
-			<key>repositoryIdentifier</key>
-			<string>7A43E2A5-B300-476C-8469-4710764EDD06</string>
-			<key>type</key>
-			<integer>2</integer>
-			<key>valid</key>
-			<true/>
-		</dict>
-		<dict>
-			<key>fileURL</key>
-			<string>file:///Users/craigpearson/code/comfygroup/bazaarpr/</string>
-			<key>lastOpenedDate</key>
-			<real>0.0</real>
-			<key>name</key>
-			<string>bazaarpr</string>
-			<key>repositoryIdentifier</key>
-			<string>6F1D65CB-6695-4EB4-9B50-E5FED9EAD39F</string>
-			<key>type</key>
-			<integer>2</integer>
-			<key>valid</key>
-			<true/>
-		</dict>
-		<dict>
-			<key>fileURL</key>
-			<string>file:///Users/craigpearson/code/open-source/trellis/</string>
-			<key>lastOpenedDate</key>
-			<real>1637857635.0653291</real>
-			<key>name</key>
-			<string>trellis</string>
-			<key>repositoryIdentifier</key>
-			<string>0CD1E743-AF19-4789-930B-13AF41EF32C6</string>
+			<string>B3BEBA3C-59A7-4195-87D2-E58EE8C28390</string>
 			<key>type</key>
 			<integer>2</integer>
 			<key>valid</key>
@@ -90,7 +20,36 @@
 		</dict>
 		<dict>
 			<key>children</key>
-			<array/>
+			<array>
+				<dict>
+					<key>fileURL</key>
+					<string>file:///Users/craigpearson/code/personal/navi/</string>
+					<key>lastOpenedDate</key>
+					<real>0.0</real>
+					<key>name</key>
+					<string>navi</string>
+					<key>repositoryIdentifier</key>
+					<string>7A43E2A5-B300-476C-8469-4710764EDD06</string>
+					<key>type</key>
+					<integer>2</integer>
+					<key>valid</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>fileURL</key>
+					<string>file:///Users/craigpearson/code/open-source/trellis/</string>
+					<key>lastOpenedDate</key>
+					<real>1651697978.6786909</real>
+					<key>name</key>
+					<string>trellis</string>
+					<key>repositoryIdentifier</key>
+					<string>0CD1E743-AF19-4789-930B-13AF41EF32C6</string>
+					<key>type</key>
+					<integer>2</integer>
+					<key>valid</key>
+					<true/>
+				</dict>
+			</array>
 			<key>expanded</key>
 			<false/>
 			<key>name</key>
@@ -103,13 +62,41 @@
 			<array>
 				<dict>
 					<key>fileURL</key>
-					<string>file:///Users/craigpearson/code/comfygroup/ecommerce/</string>
+					<string>file:///Users/craigpearson/code/comfygroup/non-ecommerce/</string>
 					<key>lastOpenedDate</key>
-					<real>1641375888.0369749</real>
+					<real>1650955554.3070259</real>
 					<key>name</key>
-					<string>ecommerce</string>
+					<string>non-ecommerce</string>
 					<key>repositoryIdentifier</key>
-					<string>6C41E3CF-A66C-4951-8166-83BF1B3EFF8E</string>
+					<string>1D184040-0238-440E-AEAD-91D3392C2AB0</string>
+					<key>type</key>
+					<integer>2</integer>
+					<key>valid</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>fileURL</key>
+					<string>file:///Users/craigpearson/code/comfygroup/bazaarpr/</string>
+					<key>lastOpenedDate</key>
+					<real>0.0</real>
+					<key>name</key>
+					<string>bazaarpr</string>
+					<key>repositoryIdentifier</key>
+					<string>6F1D65CB-6695-4EB4-9B50-E5FED9EAD39F</string>
+					<key>type</key>
+					<integer>2</integer>
+					<key>valid</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>fileURL</key>
+					<string>file:///Users/craigpearson/code/comfygroup/elastic-search/</string>
+					<key>lastOpenedDate</key>
+					<real>1649082537.073571</real>
+					<key>name</key>
+					<string>elastic-search</string>
+					<key>repositoryIdentifier</key>
+					<string>7FE9047B-F89D-478F-90AA-66C0C6F1528D</string>
 					<key>type</key>
 					<integer>2</integer>
 					<key>valid</key>
@@ -119,7 +106,7 @@
 					<key>fileURL</key>
 					<string>file:///Users/craigpearson/code/comfygroup/preview-ecommerce/site/</string>
 					<key>lastOpenedDate</key>
-					<real>1645724328.7145948</real>
+					<real>1654764967.5489001</real>
 					<key>name</key>
 					<string>site</string>
 					<key>repositoryIdentifier</key>
@@ -133,7 +120,7 @@
 					<key>fileURL</key>
 					<string>file:///Users/craigpearson/code/comfygroup/preview-ecommerce/trellis/</string>
 					<key>lastOpenedDate</key>
-					<real>1645724602.333164</real>
+					<real>1653995475.6095738</real>
 					<key>name</key>
 					<string>trellis</string>
 					<key>repositoryIdentifier</key>
@@ -147,7 +134,7 @@
 					<key>fileURL</key>
 					<string>file:///Users/craigpearson/code/comfygroup/woocommerce-sync/</string>
 					<key>lastOpenedDate</key>
-					<real>1645103944.9457181</real>
+					<real>0.0</real>
 					<key>name</key>
 					<string>woocommerce-sync</string>
 					<key>repositoryIdentifier</key>
@@ -203,7 +190,7 @@
 					<key>fileURL</key>
 					<string>file:///Users/craigpearson/code/comfygroup/docs/</string>
 					<key>lastOpenedDate</key>
-					<real>1645809933.4683681</real>
+					<real>1653995480.588074</real>
 					<key>name</key>
 					<string>docs</string>
 					<key>repositoryIdentifier</key>
@@ -217,7 +204,7 @@
 					<key>fileURL</key>
 					<string>file:///Users/craigpearson/code/comfygroup/control-machine/</string>
 					<key>lastOpenedDate</key>
-					<real>1645721995.2476389</real>
+					<real>1649067748.5879521</real>
 					<key>name</key>
 					<string>control-machine</string>
 					<key>repositoryIdentifier</key>
@@ -240,9 +227,51 @@
 			<array>
 				<dict>
 					<key>fileURL</key>
+					<string>file:///Users/craigpearson/code/minix-x8h-ubuntu-home-server/</string>
+					<key>lastOpenedDate</key>
+					<real>0.0</real>
+					<key>name</key>
+					<string>minix-x8h-ubuntu-home-server</string>
+					<key>repositoryIdentifier</key>
+					<string>3FF789E9-15EB-4614-A0FC-1B6FB7D4CEC8</string>
+					<key>type</key>
+					<integer>2</integer>
+					<key>valid</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>fileURL</key>
+					<string>file:///Users/craigpearson/code/private/dotfiles/</string>
+					<key>lastOpenedDate</key>
+					<real>1652904267.101403</real>
+					<key>name</key>
+					<string>dotfiles</string>
+					<key>repositoryIdentifier</key>
+					<string>EA7A6108-305F-4EC9-B04E-A480896E569A</string>
+					<key>type</key>
+					<integer>2</integer>
+					<key>valid</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>fileURL</key>
+					<string>file:///Users/craigpearson/code/mac-dev-playbook/</string>
+					<key>lastOpenedDate</key>
+					<real>0.0</real>
+					<key>name</key>
+					<string>mac-dev-playbook</string>
+					<key>repositoryIdentifier</key>
+					<string>4AAA35A4-56D5-4882-B545-CAA557FFBD6E</string>
+					<key>type</key>
+					<integer>2</integer>
+					<key>valid</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>fileURL</key>
 					<string>file:///Users/craigpearson/code/personal/madeby.craigpearson.co.uk/</string>
 					<key>lastOpenedDate</key>
-					<real>1644414009.3474379</real>
+					<real>0.0</real>
 					<key>name</key>
 					<string>madeby.craigpearson.co.uk</string>
 					<key>repositoryIdentifier</key>

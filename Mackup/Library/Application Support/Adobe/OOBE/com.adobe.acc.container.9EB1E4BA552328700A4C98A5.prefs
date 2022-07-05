@@ -1,14 +1,17 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0"?>
 <prefs>
-    <property key="ARSGuid">8e8bb6f2-204a-4181-b12f-4858cf84b55f</property>
-    <property key="appsPanelVisibilityAnalytics">enabled</property>
-    <property key="showTour.PHSP">1</property>
-    <property key="showTour">1</property>
-    <property key="showTour.APRO">1</property>
-    <property key="showTour.IDSN">1</property>
-    <property key="showTour.LRCC">1</property>
-    <property key="showTour.SPRK">1</property>
-    <property key="showTour.ILST">1</property>
-    <property key="PushDeviceID">98a1e610-9057-4f66-b162-491dbd628ef5</property>
-    <property key="CCD_MARKETPLACE_NEW_STATUS_LIGHT">OFF</property>
+	<property key="ARSGuid">e89f3390-dd43-4189-b7c5-a63c9e8c89a3</property>
+	<property key="appsPanelVisibilityAnalytics">enabled</property>
+	<property key="showTour.PHSP">1</property>
+	<property key="showTour">1</property>
+	<property key="showTour.APRO">1</property>
+	<property key="showTour.IDSN">1</property>
+	<property key="showTour.LRCC">1</property>
+	<property key="showTour.SPRK">1</property>
+	<property key="showTour.ILST">1</property>
+	<property key="PushDeviceID">f5872223-202a-4e7f-b0d3-74a940ae87b6</property>
+	<property key="CCD_MARKETPLACE_NEW_STATUS_LIGHT">OFF</property>
+	<property key="showTour.RUSH">1</property>
+	<property key="showTour.AEFT">1</property>
+	<property key="showTour.LTRM">1</property>
 </prefs>

@@ -64,5 +64,6 @@
     },
     "security.workspace.trust.untrustedFiles": "open",
     "terminal.integrated.scrollback": 10000,
-    "editor.inlineSuggest.enabled": true
+    "editor.inlineSuggest.enabled": true,
+    "terminal.integrated.enableMultiLinePasteWarning": false
 }

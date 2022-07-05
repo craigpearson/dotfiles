@@ -4,3 +4,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 unsetopt nomatch
 export HOMEBREW_NO_AUTO_UPDATE=1
+
+export PATH="$HOME/.composer/vendor/bin:$PATH"
+export PATH="/usr/local/opt/php@7.4/bin:$PATH"
+export PATH="/usr/local/opt/php@7.4/sbin:$PATH"
