@@ -3,7 +3,8 @@
   <rdf:Description rdf:about=""
     xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
    crs:gpu_preferred_system=""
-   crs:gpu_compute_digest="32E6DC8F1E2B7A855B6B36ACD16F7208"
-   crs:gpu_compute_quick_self_test_passed="True"/>
+   crs:gpu_compute_digest="C2C661951A4EBDA602AF868E7657D81C"
+   crs:gpu_compute_quick_self_test_passed="True"
+   crs:gpu_hdr_display_scale="1"/>
  </rdf:RDF>
 </x:xmpmeta>

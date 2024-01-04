@@ -8,7 +8,6 @@
     "sync.quietSync": false,
     "sync.askGistName": false,
     "sync.gist": "dae795e996cdb1ee592e04d7ed3ee587",
-    "workbench.colorTheme": "Boxy Tomorrow",
     "workbench.iconTheme": "vscode-great-icons",
     "phpcs.enable": false,
     "sync.lastUpload": "2018-07-25T10:08:54.234Z",
@@ -65,5 +64,17 @@
     "security.workspace.trust.untrustedFiles": "open",
     "terminal.integrated.scrollback": 10000,
     "editor.inlineSuggest.enabled": true,
-    "terminal.integrated.enableMultiLinePasteWarning": false
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "workbench.colorTheme": "Boxy Tomorrow",
+    "codestream.serverUrl": "https://codestream-eu1.service.eu.newrelic.com",
+    "codestream.email": "hello@craigpearson.co.uk",
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": true,
+        "plaintext": true,
+        "markdown": false
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    }
 }

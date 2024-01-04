@@ -14,4 +14,12 @@
 	<property key="showTour.RUSH">1</property>
 	<property key="showTour.AEFT">1</property>
 	<property key="showTour.LTRM">1</property>
+	<property key="ShowCCDLoginItemDialog">0</property>
+	<property key="ShowCCDLoginItemDTN">0</property>
+	<property key="CCDHome_STATUS_LIGHT">true</property>
+	<property key="ccd.container.whatsNewModal.ccd-ps-beta-launch-2023-05">ccd-ps-beta-launch-2023-05</property>
+	<property key="ccd.container.whatsNewModal.Express-beta-activation-modal-06-2023">Express-beta-activation-modal-06-2023</property>
+	<property key="ccd.container.firstlaunch">true</property>
+	<property key="CCDQuickActions_STATUS_LIGHT">true</property>
+	<property key="CCDQuickActionsTab">true</property>
 </prefs>

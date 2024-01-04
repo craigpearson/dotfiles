@@ -8,3 +8,5 @@ export HOMEBREW_NO_AUTO_UPDATE=1
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 export PATH="/usr/local/opt/php@7.4/bin:$PATH"
 export PATH="/usr/local/opt/php@7.4/sbin:$PATH"
+eval "$(/opt/homebrew/bin/brew shellenv)"
+export PATH="/opt/homebrew/opt/php@7.4/bin:$PATH"

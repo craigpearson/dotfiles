@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>fingerprint</key>
+		<string>SHA256:7DOUetRdhOsdBqgKIB9P/4ubAsnDAjN07FI8EQgEGmg</string>
+		<key>identifier</key>
+		<string>2CAC9857-17A4-4794-B6E1-ACE15A19A5F1</string>
+		<key>identifierText</key>
+		<string>/Users/craigpearson/.ssh/id_rsa</string>
+		<key>publicKey</key>
+		<string>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC6v9tHmTR9QcCAOoeDSuBsfp6EnRCfZx00qvC/l1/krHwMQd3+nrb/jb9UpfsTOCpzLlUtjm/tV4jqEHAcfJf6XfGWSW0qaWHeJvWQkimpgcjFzSP8k0A+8rTDerh+Sc8v9kNUkY9gXo6kwhQehPgxyrLAggJFLV2h0ZfbxVDWIrq2QsUN6C29++98k7A3jJnkCtYcr6k87mZd6AlPjYaY7tXuWqUJfbDXDlJYodxu2oZlXr5max4ibrcBqy9ehskfVnrLcKffsgSh2WggxbMs+MZYS3L4YnHvopQ96GZFaAkYh+KT4rSl3Q+wReBCULSFGJqPqja4dyNWx8xD2QAv /Users/craigpearson/.ssh/id_rsa</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>fingerprint</key>
+		<string>SHA256:a1Ew8iPNiSfIotCZPzWRoA24gRvPCXtfphWqht1ZGFI</string>
+		<key>identifier</key>
+		<string>A77015AA-62E1-456D-900C-F10F98A7BE7C</string>
+		<key>identifierText</key>
+		<string>/Users/craigpearson/code/personal/pearsmith.co.uk/trellis/.vagrant/machines/default/parallels/private_key</string>
+		<key>publicKey</key>
+		<string>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDiyskHKvmgz9/XJRb7Evkx/7Wv0K6w/cU7eQ109omxuh2s9aMLBbVzk/oM8IpwWsAbf4SXkXpPA+VeUlz2uHS2whFZl5DIOQNorHbRRXOLSrGuuuT6Cm2zJVXzneFSzuUN/oZ06BOD+7Ze5jdxIBkF3nCvzVZt42oXnXAo73NAZVEPgZzQ9ZkdJJ1rI6DLSgLayi+weblKvoTawmhImyIA93fauhkoZC8+YgQLl6EfkV4XCKI6nAavAqQRUGzffZUwUdcT/QzM1vCPYxRC/iXsEh+KK+zv8W0NkAoxW/31QuXSf7Z8fh4MgYKy9ZrRjcR9OXrJDa8HHWFDbE9nJ0El /Users/craigpearson/code/personal/pearsmith.co.uk/trellis/.vagrant/machines/default/parallels/private_key</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+</array>
+</plist>

@@ -1,1 +1,4 @@
-*** GPU Warning: GPU model is deny-listed for GPU3. ***
+cr_sdk_initialize: Adobe Photoshop Camera Raw 16.0.1 (Macintosh), version 16.0.1x1683, 64-bit, Release
+Image A: H = 1000, W = 1000, Planes = 4
+Image B: H = 1000, W = 1000, Planes = 4
+cr_sdk_terminate

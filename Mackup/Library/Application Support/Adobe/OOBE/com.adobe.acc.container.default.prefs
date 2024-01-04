@@ -1,8 +1,11 @@
 <?xml version="1.0"?>
 <prefs>
 	<property key="keepAppAlwaysUpToDate">ON</property>
-	<property key="MachineDeviceToken">008E48E2D791AFC94C40321F91F81E691E1D379EFEEE3240E46CB65C1BFE70E5</property>
+	<property key="MachineDeviceToken">2F0008A976AF75E65D5BB5DBDAF7ABE9B92253BC9A0D7AAB1E6F970B30EEA7F9</property>
 	<property key="windowSize">1280:720</property>
 	<property key="windowMode">normal</property>
 	<property key="colorThemeFGState">true</property>
+	<property key="LoggedOutModeEnabled">false</property>
+	<property key="LoggedOutModeCohort">false</property>
+	<property key="OSNotificationsSettingsDisabledDialogShown">0</property>
 </prefs>

@@ -1,558 +1,1083 @@
-cr_sdk_initialize: Adobe Lightroom 5.3 (Macintosh), version 14.3x1072, 64-bit, Release
-gDNGMaxSIMD: 2
+cr_sdk_initialize: Adobe Lightroom 6.3.1 (Macintosh), version 15.3x1451, 64-bit, Release
+gDNGMaxSIMD: 1
 Memory allocator: baseline (cr_memory_allocator)
-TBB threading: no
 libdispatch threading: yes
 thread type: dispatch
 ACE thread type: dispatch
-PatchMatch initialized (version 5.81.0.0). Using 12 threads.
-OS: 12.3.1
-CPU: Intel(R) Xeon(R) CPU E5-1650 v2 @ 3.50GHz
-MPProcessorCount (hyperthreading = false): 6
-MPProcessorCount (hyperthreading = true): 12
-MPThreadCount: 7
-std::thread::hardware_concurrency: 12
-AVX support: yes
+PatchMatch initialized (version 5.90.0.0). Using 10 threads.
+OS: 13.4
+CPU: Apple M1 Pro
+MPProcessorCount (hyperthreading = false): 10
+MPProcessorCount (hyperthreading = true): 10
+MPThreadCount: 6
+std::thread::hardware_concurrency: 10
+AVX support: no
 AVX2 support: no
 AVX512 support: no
-System physical RAM: 64 GB
+System physical RAM: 32 GB
 Initialize GPU system
 Read GPU config
+New/changed GPU init digest, so zapping any TempDisableGPU2 and TempDisableGPU3 files.
 Safe load GPU
-Building pipeline states for AMD Radeon HD - FirePro D500
-Building pipeline states for AMD Radeon HD - FirePro D500
+Building pipeline states for Apple M1 Pro
 Loaded GPU system: Metal
-GPU primary driver version: 12.3.1
+GPU primary driver version: 13.4.0
 GPU device count: 1
-GPU device names: AMD Radeon HD - FirePro D500
-GPU3 allow list: no
+GPU device names: Apple M1 Pro
+GPU3 allow list: yes
 GPU3 deny list: no
-GPU3 prev digest: 2B0D78D696887DE7D6941B124E79CE17
-GPU3 new digest: 32E6DC8F1E2B7A855B6B36ACD16F7208
+GPU3 prev digest: 32E6DC8F1E2B7A855B6B36ACD16F7208
+GPU3 new digest: C2C661951A4EBDA602AF868E7657D81C
 Need to run gpu self tests : True.
 New/changed sanity digest, so zapping any TempDisableGPU3 files
 GPU Init Status (part 1): I2_GPU2
 GPU3 Hard Status Result (part 1): unknown
 GPU3 Soft Status Result (part 1): success
-GPU4 Hard Status Result (part 1): fail_config_disable
-GPU4 Soft Status Result (part 1): fail_insufficient_memory
-AMD Radeon HD - FirePro D500: Building compute pipeline state (1/253)
-MaxTotalThreadsPerThreadGroup: TestNOPCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (2/253)
+GPU4 Hard Status Result (part 1): unknown
+GPU4 Soft Status Result (part 1): success
+Apple M1 Pro: Building compute pipeline state (1/257)
 Intel Compiler: no
-MaxTotalThreadsPerThreadGroup: Test1dFunctionsCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (3/253)
-MaxTotalThreadsPerThreadGroup: TestComputeCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (4/253)
-MaxTotalThreadsPerThreadGroup: TestComputeSpeedCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (5/253)
-MaxTotalThreadsPerThreadGroup: TestDispatchIndirectFillBuffersCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (6/253)
-MaxTotalThreadsPerThreadGroup: TestDispatchIndirectRecordInfoCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (7/253)
-MaxTotalThreadsPerThreadGroup: TestDoRenderCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (8/253)
-MaxTotalThreadsPerThreadGroup: TestMarkTip32Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (9/253)
-MaxTotalThreadsPerThreadGroup: TestShader1_BufInPlace_2D_R32FloatCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (10/253)
-MaxTotalThreadsPerThreadGroup: TestShader1_BufPingPong_2D_R32FloatCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (11/253)
-MaxTotalThreadsPerThreadGroup: TestShader1_TexPingPong_2DCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (12/253)
-MaxTotalThreadsPerThreadGroup: AutoLateralCAWarpTransformCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (13/253)
-MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneRadius1Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (14/253)
-MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneRadius2Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (15/253)
-MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneRadius3Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (16/253)
-MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneRadius4Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (17/253)
-MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneRadius5Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (18/253)
-MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneRadius6Compute,768,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (19/253)
-MaxTotalThreadsPerThreadGroup: Blur1Pass4PlaneRadius1Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (20/253)
-MaxTotalThreadsPerThreadGroup: Blur1Pass4PlaneRadius2Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (21/253)
-MaxTotalThreadsPerThreadGroup: Blur1Pass4PlaneRadius3Compute,768,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (22/253)
-MaxTotalThreadsPerThreadGroup: Blur1Pass4PlaneRadius4Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (23/253)
-MaxTotalThreadsPerThreadGroup: Blur1Pass4PlaneRadius5Compute,512,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (24/253)
-MaxTotalThreadsPerThreadGroup: Blur1Pass4PlaneRadius6Compute,768,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (25/253)
-MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius1Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (26/253)
-MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius2Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (27/253)
-MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius3Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (28/253)
-MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius4Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (29/253)
-MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius5Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (30/253)
-MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius6Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (31/253)
-MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadiusNCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (32/253)
-MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius1Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (33/253)
-MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius2Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (34/253)
-MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius3Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (35/253)
-MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius4Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (36/253)
-MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius5Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (37/253)
-MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius6Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (38/253)
-MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadiusNCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (39/253)
-MaxTotalThreadsPerThreadGroup: BoxBlur1Pass1PlanePlusComputeABRadius1Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (40/253)
-MaxTotalThreadsPerThreadGroup: BoxBlur1Pass1PlanePlusComputeABRadius2Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (41/253)
-MaxTotalThreadsPerThreadGroup: BoxBlur1Pass1PlanePlusComputeABRadius3Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (42/253)
-MaxTotalThreadsPerThreadGroup: BoxBlur1Pass1PlanePlusComputeABRadius4Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (43/253)
-MaxTotalThreadsPerThreadGroup: BoxBlur1Pass1PlanePlusComputeABRadius5Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (44/253)
-MaxTotalThreadsPerThreadGroup: BoxBlur1Pass1PlanePlusComputeABRadius6Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (45/253)
-MaxTotalThreadsPerThreadGroup: BoxBlur1Pass2PlanePlusAffinePlusPreprocessRadius1Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (46/253)
-MaxTotalThreadsPerThreadGroup: BoxBlur1Pass2PlanePlusAffinePlusPreprocessRadius2Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (47/253)
-MaxTotalThreadsPerThreadGroup: BoxBlur1Pass2PlanePlusAffinePlusPreprocessRadius3Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (48/253)
-MaxTotalThreadsPerThreadGroup: BoxBlur1Pass2PlanePlusAffinePlusPreprocessRadius4Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (49/253)
-MaxTotalThreadsPerThreadGroup: BoxBlur1Pass2PlanePlusAffinePlusPreprocessRadius5Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (50/253)
-MaxTotalThreadsPerThreadGroup: BoxBlur1Pass3PlanePlusComputeABRadius1Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (51/253)
-MaxTotalThreadsPerThreadGroup: BoxBlur1Pass3PlanePlusComputeABRadius2Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (52/253)
-MaxTotalThreadsPerThreadGroup: BoxBlur1Pass3PlanePlusComputeABRadius3Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (53/253)
-MaxTotalThreadsPerThreadGroup: BoxBlur1Pass3PlanePlusComputeABRadius4Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (54/253)
-MaxTotalThreadsPerThreadGroup: BoxBlur1Pass3PlanePlusComputeABRadius5Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (55/253)
-MaxTotalThreadsPerThreadGroup: BoxBlur1Pass3PlanePlusComputeABRadius6Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (56/253)
-MaxTotalThreadsPerThreadGroup: BoxBlur1Pass4PlaneRadius1Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (57/253)
-MaxTotalThreadsPerThreadGroup: BoxBlur1Pass4PlaneRadius2Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (58/253)
-MaxTotalThreadsPerThreadGroup: BoxBlur1Pass4PlaneRadius3Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (59/253)
-MaxTotalThreadsPerThreadGroup: BoxBlur1Pass4PlaneRadius4Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (60/253)
-MaxTotalThreadsPerThreadGroup: BoxBlur1Pass4PlaneRadius5Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (61/253)
-MaxTotalThreadsPerThreadGroup: BoxBlur1Pass4PlaneRadius6Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (62/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadius1Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (63/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadius2Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (64/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadius3Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (65/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadius4Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (66/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadius5Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (67/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadius6Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (68/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadiusNCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (69/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadiusNMovingAverageCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (70/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadius1Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (71/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadius2Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (72/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadius3Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (73/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadius4Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (74/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadius5Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (75/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadius6Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (76/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadiusNCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (77/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadiusNMovingAverageCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (78/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadius1Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (79/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadius2Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (80/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadius3Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (81/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadius4Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (82/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadius5Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (83/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadius6Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (84/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadiusNCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (85/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadiusNMovingAverageCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (86/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadius1Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (87/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadius2Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (88/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadius3Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (89/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadius4Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (90/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadius5Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (91/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadius6Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (92/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadiusNCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (93/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadiusNMovingAverageCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (94/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadius1Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (95/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadius2Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (96/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadius3Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (97/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadius4Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (98/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadius5Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (99/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadius6Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (100/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadiusNCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (101/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadiusNMovingAverageCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (102/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadius1Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (103/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadius2Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (104/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadius3Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (105/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadius4Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (106/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadius5Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (107/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadius6Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (108/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadiusNCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (109/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadiusNMovingAverageCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (110/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius1Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (111/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius2Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (112/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius3Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (113/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius4Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (114/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius5Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (115/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius6Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (116/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadiusNCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (117/253)
-MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadiusNMovingAverageCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (118/253)
-MaxTotalThreadsPerThreadGroup: Copy2PlaneTextureTo4PlaneTextureCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (119/253)
-MaxTotalThreadsPerThreadGroup: CopyBuffer16sToTexture32Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (120/253)
-MaxTotalThreadsPerThreadGroup: CopyBuffer16uToTexture32Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (121/253)
-MaxTotalThreadsPerThreadGroup: CopyBuffer32ToTexture32Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (122/253)
-MaxTotalThreadsPerThreadGroup: CopyBufferToBufferCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (123/253)
-MaxTotalThreadsPerThreadGroup: CopyBufferToTextureCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (124/253)
-MaxTotalThreadsPerThreadGroup: CopyTexelBufferToTexelBufferCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (125/253)
-MaxTotalThreadsPerThreadGroup: CopyTextureToTextureCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (126/253)
-MaxTotalThreadsPerThreadGroup: CopyTextureToTextureWithDitherCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (127/253)
-MaxTotalThreadsPerThreadGroup: CopyTextureToTextureWithEdgeOptionCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (128/253)
-MaxTotalThreadsPerThreadGroup: CopyTextureToTextureWithPaddingCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (129/253)
-MaxTotalThreadsPerThreadGroup: DefringeCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (130/253)
-MaxTotalThreadsPerThreadGroup: DefringeBlendBlurNonBlurredCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (131/253)
-MaxTotalThreadsPerThreadGroup: DefringeCompositeMaskCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (132/253)
-MaxTotalThreadsPerThreadGroup: DefringeMaskCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (133/253)
-MaxTotalThreadsPerThreadGroup: DefringeMaxAcrossRadius1Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (134/253)
-MaxTotalThreadsPerThreadGroup: DefringeMaxDownRadius1Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (135/253)
-MaxTotalThreadsPerThreadGroup: DefringeMaxMaskCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (136/253)
-MaxTotalThreadsPerThreadGroup: DefringeMinMaskCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (137/253)
-MaxTotalThreadsPerThreadGroup: DefringeMultiplyMaskCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (138/253)
-MaxTotalThreadsPerThreadGroup: DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius1Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (139/253)
-MaxTotalThreadsPerThreadGroup: DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius2Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (140/253)
-MaxTotalThreadsPerThreadGroup: DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius3Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (141/253)
-MaxTotalThreadsPerThreadGroup: DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius4Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (142/253)
-MaxTotalThreadsPerThreadGroup: DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius5Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (143/253)
-MaxTotalThreadsPerThreadGroup: DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius6Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (144/253)
-MaxTotalThreadsPerThreadGroup: DehazeMinFilter1PlaneAcrossPlusDarkChannelRadiusNCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (145/253)
-MaxTotalThreadsPerThreadGroup: DehazeMinFilter1PlaneDownPlusPreprocessRadiusNCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (146/253)
-MaxTotalThreadsPerThreadGroup: DehazeTrMDarkChannelCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (147/253)
-MaxTotalThreadsPerThreadGroup: DehazeTrMEmitIndexedRGBLCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (148/253)
-MaxTotalThreadsPerThreadGroup: DehazeTrMSetConstantAirlightCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (149/253)
-MaxTotalThreadsPerThreadGroup: DenoiseAlphaBlendCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (150/253)
-MaxTotalThreadsPerThreadGroup: DenoiseAlphaBlendLocalCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (151/253)
-MaxTotalThreadsPerThreadGroup: DenoiseBlendEdgesCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (152/253)
-MaxTotalThreadsPerThreadGroup: DenoiseCopyLumAndColorCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (153/253)
-MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadius1Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (154/253)
-MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadius2Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (155/253)
-MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadius3Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (156/253)
-MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadius4Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (157/253)
-MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadius5Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (158/253)
-MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadius6Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (159/253)
-MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadiusNCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (160/253)
-MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius1Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (161/253)
-MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius2Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (162/253)
-MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius3Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (163/253)
-MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius4Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (164/253)
-MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius5Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (165/253)
-MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius6Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (166/253)
-MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadiusNCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (167/253)
-MaxTotalThreadsPerThreadGroup: DenoiseDeltaFindFeatureCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (168/253)
-MaxTotalThreadsPerThreadGroup: DenoiseDiffuseEdgeMarkersCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (169/253)
-MaxTotalThreadsPerThreadGroup: DenoiseFindAndRemoveNoiseBlockCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (170/253)
-MaxTotalThreadsPerThreadGroup: DenoiseMakeDeltaCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (171/253)
-MaxTotalThreadsPerThreadGroup: DenoiseOptionKeyFeedbackCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (172/253)
-MaxTotalThreadsPerThreadGroup: DenoisePrelimEdgeDirectionCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (173/253)
-MaxTotalThreadsPerThreadGroup: DenoisePyramidBuildHpCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (174/253)
-MaxTotalThreadsPerThreadGroup: DenoisePyramidBuildLp1Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (175/253)
-MaxTotalThreadsPerThreadGroup: DenoisePyramidBuildLp3Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (176/253)
-MaxTotalThreadsPerThreadGroup: DenoisePyramidCollapseLp1Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (177/253)
-MaxTotalThreadsPerThreadGroup: DenoisePyramidCollapseLp3WithHpCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (178/253)
-MaxTotalThreadsPerThreadGroup: DenoisePyramidCollapseLp3WithoutHpCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (179/253)
-MaxTotalThreadsPerThreadGroup: DenoiseRank3x3PlusHpThresholdCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (180/253)
-MaxTotalThreadsPerThreadGroup: DenoiseRecordMaxBorderCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (181/253)
-MaxTotalThreadsPerThreadGroup: DenoiseRefineDeltasCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (182/253)
-MaxTotalThreadsPerThreadGroup: DenoiseRefineRefEdgeDirectionsCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (183/253)
-MaxTotalThreadsPerThreadGroup: DenoiseSmoothEdgesCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (184/253)
-MaxTotalThreadsPerThreadGroup: DenoiseSmoothNonEdgeCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (185/253)
-MaxTotalThreadsPerThreadGroup: DrawLineOnTexCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (186/253)
-MaxTotalThreadsPerThreadGroup: FillBufferCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (187/253)
-MaxTotalThreadsPerThreadGroup: FillBuffer1PlaneCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (188/253)
-MaxTotalThreadsPerThreadGroup: FillTextureCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (189/253)
-MaxTotalThreadsPerThreadGroup: Histogram1PlaneCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (190/253)
-MaxTotalThreadsPerThreadGroup: Histogram1Plane_V1Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (191/253)
-MaxTotalThreadsPerThreadGroup: Histogram3PlaneCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (192/253)
-MaxTotalThreadsPerThreadGroup: Histogram4Plane_V1Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (193/253)
-MaxTotalThreadsPerThreadGroup: LocalContrastYCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (194/253)
-MaxTotalThreadsPerThreadGroup: LocalCorrectionCompositeCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (195/253)
-MaxTotalThreadsPerThreadGroup: ManualDistortionTransformCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (196/253)
-MaxTotalThreadsPerThreadGroup: MaskRenderComboCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (197/253)
-MaxTotalThreadsPerThreadGroup: MoireBoxBlur1PassAndBlendRadius1Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (198/253)
-MaxTotalThreadsPerThreadGroup: MoireBoxBlur1PassAndBlendRadius2Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (199/253)
-MaxTotalThreadsPerThreadGroup: MoireBoxBlur1PassAndBlendRadius3Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (200/253)
-MaxTotalThreadsPerThreadGroup: MoireBoxBlur1PassAndBlendRadius4Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (201/253)
-MaxTotalThreadsPerThreadGroup: MoireBoxBlur1PassAndBlendRadius5Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (202/253)
-MaxTotalThreadsPerThreadGroup: MoireBoxBlur1PassAndBlendRadius6Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (203/253)
-MaxTotalThreadsPerThreadGroup: MoireBoxBlurAcrossRadiusNCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (204/253)
-MaxTotalThreadsPerThreadGroup: MoireBoxBlurDownAndBlendRadiusNCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (205/253)
-MaxTotalThreadsPerThreadGroup: MoireCombine3Plane1PlaneCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (206/253)
-MaxTotalThreadsPerThreadGroup: OutputSharpenHPAndBlendGamma18Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (207/253)
-MaxTotalThreadsPerThreadGroup: OutputSharpenGamma18Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (208/253)
-MaxTotalThreadsPerThreadGroup: OutputSharpenUSMWithThresholdCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (209/253)
-MaxTotalThreadsPerThreadGroup: OverlayGrainCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (210/253)
-MaxTotalThreadsPerThreadGroup: PerspectiveTransformCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (211/253)
-MaxTotalThreadsPerThreadGroup: RadialTableWarpTransformCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (212/253)
-MaxTotalThreadsPerThreadGroup: ReorientTextureCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (213/253)
-MaxTotalThreadsPerThreadGroup: Sample1PlaneCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (214/253)
-MaxTotalThreadsPerThreadGroup: Sample4PlaneCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (215/253)
-MaxTotalThreadsPerThreadGroup: Sequence1TexCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (216/253)
-MaxTotalThreadsPerThreadGroup: Sequence2TexCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (217/253)
-MaxTotalThreadsPerThreadGroup: Sequence3TexCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (218/253)
-MaxTotalThreadsPerThreadGroup: Sequence4TexCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (219/253)
-MaxTotalThreadsPerThreadGroup: Sequence5TexCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (220/253)
-MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadius1Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (221/253)
-MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadius2Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (222/253)
-MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadius3Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (223/253)
-MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadius4Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (224/253)
-MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadius5Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (225/253)
-MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadius6Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (226/253)
-MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadiusNCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (227/253)
-MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1PassRadius1Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (228/253)
-MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1PassRadius2Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (229/253)
-MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1PassRadius3Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (230/253)
-MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1PassRadius4Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (231/253)
-MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1PassRadius5Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (232/253)
-MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1PassRadius6Compute,768,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (233/253)
-MaxTotalThreadsPerThreadGroup: Sharpen3CompositePlusCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (234/253)
-MaxTotalThreadsPerThreadGroup: Sharpen3EdgeDiff1PassRadius1Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (235/253)
-MaxTotalThreadsPerThreadGroup: Sharpen3LensBlurCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (236/253)
-MaxTotalThreadsPerThreadGroup: Sharpen3MinMax1PassRadius1Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (237/253)
-MaxTotalThreadsPerThreadGroup: Sharpen3RGBtoRGBYGamma18Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (238/253)
-MaxTotalThreadsPerThreadGroup: SkewHCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (239/253)
-MaxTotalThreadsPerThreadGroup: SkewVCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (240/253)
-MaxTotalThreadsPerThreadGroup: SolidFrameTexCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (241/253)
-MaxTotalThreadsPerThreadGroup: SortPhase0HistogramsZeroCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (242/253)
-MaxTotalThreadsPerThreadGroup: SortPhase1HistogramsCalcCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (243/253)
-MaxTotalThreadsPerThreadGroup: SortPhase2HistogramsScanCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (244/253)
-MaxTotalThreadsPerThreadGroup: SortPhase3ScatterCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (245/253)
-MaxTotalThreadsPerThreadGroup: SortPhase4LocalSortCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (246/253)
-MaxTotalThreadsPerThreadGroup: SortPhase5UnsortedFinalCopyCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (247/253)
-MaxTotalThreadsPerThreadGroup: TextureAffinePlusCompositeCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (248/253)
-MaxTotalThreadsPerThreadGroup: TextureEncodeLogYCCCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (249/253)
-MaxTotalThreadsPerThreadGroup: TextureUnitInfoCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (250/253)
-MaxTotalThreadsPerThreadGroup: WarpCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (251/253)
-MaxTotalThreadsPerThreadGroup: Warp4X4Compute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (252/253)
-MaxTotalThreadsPerThreadGroup: WarpPlanesDifferentCompute,1024,512
-AMD Radeon HD - FirePro D500: Building compute pipeline state (253/253)
-MaxTotalThreadsPerThreadGroup: WarpPlanesDifferent4X4Compute,1024,512
-AMD Radeon HD - FirePro D500: Finished building compute pipeline states.
+MaxTotalThreadsPerThreadGroup: TestNOPCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (2/257)
+MaxTotalThreadsPerThreadGroup: Test1dFunctionsCompute,896,896
+Apple M1 Pro: Building compute pipeline state (3/257)
+MaxTotalThreadsPerThreadGroup: TestComputeCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (4/257)
+MaxTotalThreadsPerThreadGroup: TestComputeSpeedCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (5/257)
+MaxTotalThreadsPerThreadGroup: TestDispatchIndirectFillBuffersCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (6/257)
+MaxTotalThreadsPerThreadGroup: TestDispatchIndirectRecordInfoCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (7/257)
+MaxTotalThreadsPerThreadGroup: TestDoRenderCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (8/257)
+MaxTotalThreadsPerThreadGroup: TestMarkTip32Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (9/257)
+MaxTotalThreadsPerThreadGroup: TestShader1_BufInPlace_2D_R32FloatCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (10/257)
+MaxTotalThreadsPerThreadGroup: TestShader1_BufPingPong_2D_R32FloatCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (11/257)
+MaxTotalThreadsPerThreadGroup: TestShader1_TexPingPong_2DCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (12/257)
+MaxTotalThreadsPerThreadGroup: AutoLateralCAWarpTransformCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (13/257)
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (14/257)
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (15/257)
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneRadius3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (16/257)
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneRadius4Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (17/257)
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneRadius5Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (18/257)
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneRadius6Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (19/257)
+MaxTotalThreadsPerThreadGroup: Blur1Pass4PlaneRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (20/257)
+MaxTotalThreadsPerThreadGroup: Blur1Pass4PlaneRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (21/257)
+MaxTotalThreadsPerThreadGroup: Blur1Pass4PlaneRadius3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (22/257)
+MaxTotalThreadsPerThreadGroup: Blur1Pass4PlaneRadius4Compute,832,832
+Apple M1 Pro: Building compute pipeline state (23/257)
+MaxTotalThreadsPerThreadGroup: Blur1Pass4PlaneRadius5Compute,832,832
+Apple M1 Pro: Building compute pipeline state (24/257)
+MaxTotalThreadsPerThreadGroup: Blur1Pass4PlaneRadius6Compute,640,640
+Apple M1 Pro: Building compute pipeline state (25/257)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (26/257)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (27/257)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (28/257)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius4Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (29/257)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius5Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (30/257)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius6Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (31/257)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadiusNCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (32/257)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (33/257)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (34/257)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (35/257)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius4Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (36/257)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius5Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (37/257)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius6Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (38/257)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadiusNCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (39/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass1PlanePlusComputeABRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (40/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass1PlanePlusComputeABRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (41/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass1PlanePlusComputeABRadius3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (42/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass1PlanePlusComputeABRadius4Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (43/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass1PlanePlusComputeABRadius5Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (44/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass1PlanePlusComputeABRadius6Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (45/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass2PlanePlusAffinePlusPreprocessRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (46/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass2PlanePlusAffinePlusPreprocessRadius2Compute,896,896
+Apple M1 Pro: Building compute pipeline state (47/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass2PlanePlusAffinePlusPreprocessRadius3Compute,512,512
+Apple M1 Pro: Building compute pipeline state (48/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass2PlanePlusAffinePlusPreprocessRadius4Compute,384,384
+Apple M1 Pro: Building compute pipeline state (49/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass2PlanePlusAffinePlusPreprocessRadius5Compute,384,384
+Apple M1 Pro: Building compute pipeline state (50/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass3PlanePlusComputeABRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (51/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass3PlanePlusComputeABRadius2Compute,704,704
+Apple M1 Pro: Building compute pipeline state (52/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass3PlanePlusComputeABRadius3Compute,448,448
+Apple M1 Pro: Building compute pipeline state (53/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass3PlanePlusComputeABRadius4Compute,384,384
+Apple M1 Pro: Building compute pipeline state (54/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass3PlanePlusComputeABRadius5Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (55/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass3PlanePlusComputeABRadius6Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (56/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass4PlaneRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (57/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass4PlaneRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (58/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass4PlaneRadius3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (59/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass4PlaneRadius4Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (60/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass4PlaneRadius5Compute,832,832
+Apple M1 Pro: Building compute pipeline state (61/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass4PlaneRadius6Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (62/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (63/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (64/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadius3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (65/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadius4Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (66/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadius5Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (67/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadius6Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (68/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadiusNCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (69/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadiusNMovingAverageCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (70/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (71/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (72/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadius3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (73/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadius4Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (74/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadius5Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (75/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadius6Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (76/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadiusNCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (77/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadiusNMovingAverageCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (78/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (79/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (80/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadius3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (81/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadius4Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (82/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadius5Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (83/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadius6Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (84/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadiusNCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (85/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadiusNMovingAverageCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (86/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (87/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (88/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadius3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (89/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadius4Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (90/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadius5Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (91/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadius6Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (92/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadiusNCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (93/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadiusNMovingAverageCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (94/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (95/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (96/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadius3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (97/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadius4Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (98/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadius5Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (99/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadius6Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (100/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadiusNCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (101/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadiusNMovingAverageCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (102/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (103/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (104/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadius3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (105/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadius4Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (106/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadius5Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (107/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadius6Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (108/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadiusNCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (109/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadiusNMovingAverageCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (110/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (111/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (112/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (113/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius4Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (114/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius5Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (115/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius6Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (116/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadiusNCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (117/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadiusNMovingAverageCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (118/257)
+MaxTotalThreadsPerThreadGroup: Copy2PlaneTextureTo4PlaneTextureCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (119/257)
+MaxTotalThreadsPerThreadGroup: CopyBuffer16sToTexture32Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (120/257)
+MaxTotalThreadsPerThreadGroup: CopyBuffer16uToTexture32Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (121/257)
+MaxTotalThreadsPerThreadGroup: CopyBuffer32ToTexture32Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (122/257)
+MaxTotalThreadsPerThreadGroup: CopyBufferToBufferCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (123/257)
+MaxTotalThreadsPerThreadGroup: CopyBufferToTextureCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (124/257)
+MaxTotalThreadsPerThreadGroup: CopyTexelBufferToTexelBufferCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (125/257)
+MaxTotalThreadsPerThreadGroup: CopyTextureToBufferCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (126/257)
+MaxTotalThreadsPerThreadGroup: CopyTextureToTextureCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (127/257)
+MaxTotalThreadsPerThreadGroup: CopyTextureToTextureWithDitherCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (128/257)
+MaxTotalThreadsPerThreadGroup: CopyTextureToTextureWithEdgeOptionCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (129/257)
+MaxTotalThreadsPerThreadGroup: CopyTextureToTextureWithPaddingCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (130/257)
+MaxTotalThreadsPerThreadGroup: DefringeCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (131/257)
+MaxTotalThreadsPerThreadGroup: DefringeBlendBlurNonBlurredCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (132/257)
+MaxTotalThreadsPerThreadGroup: DefringeCompositeMaskCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (133/257)
+MaxTotalThreadsPerThreadGroup: DefringeHDRDecodeNonLinearCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (134/257)
+MaxTotalThreadsPerThreadGroup: DefringeHDREncodeNonLinearCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (135/257)
+MaxTotalThreadsPerThreadGroup: DefringeMaskCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (136/257)
+MaxTotalThreadsPerThreadGroup: DefringeMaxAcrossRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (137/257)
+MaxTotalThreadsPerThreadGroup: DefringeMaxDownRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (138/257)
+MaxTotalThreadsPerThreadGroup: DefringeMaxMaskCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (139/257)
+MaxTotalThreadsPerThreadGroup: DefringeMinMaskCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (140/257)
+MaxTotalThreadsPerThreadGroup: DefringeMultiplyMaskCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (141/257)
+MaxTotalThreadsPerThreadGroup: DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (142/257)
+MaxTotalThreadsPerThreadGroup: DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (143/257)
+MaxTotalThreadsPerThreadGroup: DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (144/257)
+MaxTotalThreadsPerThreadGroup: DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius4Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (145/257)
+MaxTotalThreadsPerThreadGroup: DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius5Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (146/257)
+MaxTotalThreadsPerThreadGroup: DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius6Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (147/257)
+MaxTotalThreadsPerThreadGroup: DehazeMinFilter1PlaneAcrossPlusDarkChannelRadiusNCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (148/257)
+MaxTotalThreadsPerThreadGroup: DehazeMinFilter1PlaneDownPlusPreprocessRadiusNCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (149/257)
+MaxTotalThreadsPerThreadGroup: DehazeTrMDarkChannelCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (150/257)
+MaxTotalThreadsPerThreadGroup: DehazeTrMEmitIndexedRGBLCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (151/257)
+MaxTotalThreadsPerThreadGroup: DehazeTrMSetConstantAirlightCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (152/257)
+MaxTotalThreadsPerThreadGroup: DenoiseAlphaBlendCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (153/257)
+MaxTotalThreadsPerThreadGroup: DenoiseAlphaBlendLocalCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (154/257)
+MaxTotalThreadsPerThreadGroup: DenoiseBlendEdgesCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (155/257)
+MaxTotalThreadsPerThreadGroup: DenoiseCopyLumAndColorCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (156/257)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (157/257)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (158/257)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadius3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (159/257)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadius4Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (160/257)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadius5Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (161/257)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadius6Compute,832,832
+Apple M1 Pro: Building compute pipeline state (162/257)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadiusNCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (163/257)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (164/257)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (165/257)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (166/257)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius4Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (167/257)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius5Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (168/257)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius6Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (169/257)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadiusNCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (170/257)
+MaxTotalThreadsPerThreadGroup: DenoiseDeltaFindFeatureCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (171/257)
+MaxTotalThreadsPerThreadGroup: DenoiseDiffuseEdgeMarkersCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (172/257)
+MaxTotalThreadsPerThreadGroup: DenoiseFindAndRemoveNoiseBlockCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (173/257)
+MaxTotalThreadsPerThreadGroup: DenoiseMakeDeltaCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (174/257)
+MaxTotalThreadsPerThreadGroup: DenoiseOptionKeyFeedbackCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (175/257)
+MaxTotalThreadsPerThreadGroup: DenoisePrelimEdgeDirectionCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (176/257)
+MaxTotalThreadsPerThreadGroup: DenoisePyramidBuildHpCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (177/257)
+MaxTotalThreadsPerThreadGroup: DenoisePyramidBuildLp1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (178/257)
+MaxTotalThreadsPerThreadGroup: DenoisePyramidBuildLp3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (179/257)
+MaxTotalThreadsPerThreadGroup: DenoisePyramidCollapseLp1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (180/257)
+MaxTotalThreadsPerThreadGroup: DenoisePyramidCollapseLp3WithHpCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (181/257)
+MaxTotalThreadsPerThreadGroup: DenoisePyramidCollapseLp3WithoutHpCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (182/257)
+MaxTotalThreadsPerThreadGroup: DenoiseRank3x3PlusHpThresholdCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (183/257)
+MaxTotalThreadsPerThreadGroup: DenoiseRecordMaxBorderCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (184/257)
+MaxTotalThreadsPerThreadGroup: DenoiseRefineDeltasCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (185/257)
+MaxTotalThreadsPerThreadGroup: DenoiseRefineRefEdgeDirectionsCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (186/257)
+MaxTotalThreadsPerThreadGroup: DenoiseSmoothEdgesCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (187/257)
+MaxTotalThreadsPerThreadGroup: DenoiseSmoothNonEdgeCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (188/257)
+MaxTotalThreadsPerThreadGroup: DrawLineOnTexCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (189/257)
+MaxTotalThreadsPerThreadGroup: FillBufferCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (190/257)
+MaxTotalThreadsPerThreadGroup: FillBuffer1PlaneCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (191/257)
+MaxTotalThreadsPerThreadGroup: FillTextureCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (192/257)
+MaxTotalThreadsPerThreadGroup: Histogram1PlaneCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (193/257)
+MaxTotalThreadsPerThreadGroup: Histogram3PlaneCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (194/257)
+MaxTotalThreadsPerThreadGroup: LocalContrastYCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (195/257)
+MaxTotalThreadsPerThreadGroup: LocalCorrectionCompositeCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (196/257)
+MaxTotalThreadsPerThreadGroup: ManualDistortionTransformCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (197/257)
+MaxTotalThreadsPerThreadGroup: MaskRenderComboCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (198/257)
+MaxTotalThreadsPerThreadGroup: MoireBoxBlur1PassAndBlendRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (199/257)
+TrimFootprint:    0.0 MB purged from pools.
+MaxTotalThreadsPerThreadGroup: MoireBoxBlur1PassAndBlendRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (200/257)
+MaxTotalThreadsPerThreadGroup: MoireBoxBlur1PassAndBlendRadius3Compute,896,896
+Apple M1 Pro: Building compute pipeline state (201/257)
+MaxTotalThreadsPerThreadGroup: MoireBoxBlur1PassAndBlendRadius4Compute,896,896
+Apple M1 Pro: Building compute pipeline state (202/257)
+MaxTotalThreadsPerThreadGroup: MoireBoxBlur1PassAndBlendRadius5Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (203/257)
+MaxTotalThreadsPerThreadGroup: MoireBoxBlur1PassAndBlendRadius6Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (204/257)
+MaxTotalThreadsPerThreadGroup: MoireBoxBlurAcrossRadiusNCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (205/257)
+MaxTotalThreadsPerThreadGroup: MoireBoxBlurDownAndBlendRadiusNCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (206/257)
+MaxTotalThreadsPerThreadGroup: MoireCombine3Plane1PlaneCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (207/257)
+MaxTotalThreadsPerThreadGroup: OutputSharpenEncodeHDRCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (208/257)
+MaxTotalThreadsPerThreadGroup: OutputSharpenEncodeSDRCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (209/257)
+MaxTotalThreadsPerThreadGroup: OutputSharpenHPAndBlendAndDecodeCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (210/257)
+MaxTotalThreadsPerThreadGroup: OutputSharpenUSMWithThresholdCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (211/257)
+MaxTotalThreadsPerThreadGroup: OverlayGrainCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (212/257)
+MaxTotalThreadsPerThreadGroup: PerspectiveTransformCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (213/257)
+MaxTotalThreadsPerThreadGroup: RadialTableWarpTransformCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (214/257)
+MaxTotalThreadsPerThreadGroup: ReorientTextureCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (215/257)
+MaxTotalThreadsPerThreadGroup: Sample1PlaneCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (216/257)
+MaxTotalThreadsPerThreadGroup: Sample4PlaneCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (217/257)
+MaxTotalThreadsPerThreadGroup: Sequence1TexCompute,832,832
+Apple M1 Pro: Building compute pipeline state (218/257)
+CalculateAutoTone: atvSDP
+MaxTotalThreadsPerThreadGroup: Sequence2TexCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (219/257)
+MaxTotalThreadsPerThreadGroup: Sequence3TexCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (220/257)
+MaxTotalThreadsPerThreadGroup: Sequence4TexCompute,832,832
+Apple M1 Pro: Building compute pipeline state (221/257)
+MaxTotalThreadsPerThreadGroup: Sequence5TexCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (222/257)
+MaxTotalThreadsPerThreadGroup: Sequence6TexCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (223/257)
+MaxTotalThreadsPerThreadGroup: SequentialMaskCompute,640,640
+Apple M1 Pro: Building compute pipeline state (224/257)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (225/257)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (226/257)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadius3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (227/257)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadius4Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (228/257)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadius5Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (229/257)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadius6Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (230/257)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadiusNCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (231/257)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1PassRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (232/257)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1PassRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (233/257)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1PassRadius3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (234/257)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1PassRadius4Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (235/257)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1PassRadius5Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (236/257)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1PassRadius6Compute,832,832
+Apple M1 Pro: Building compute pipeline state (237/257)
+MaxTotalThreadsPerThreadGroup: Sharpen3CompositePlusCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (238/257)
+MaxTotalThreadsPerThreadGroup: Sharpen3EdgeDiff1PassRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (239/257)
+MaxTotalThreadsPerThreadGroup: Sharpen3LensBlurCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (240/257)
+MaxTotalThreadsPerThreadGroup: Sharpen3MinMax1PassRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (241/257)
+MaxTotalThreadsPerThreadGroup: Sharpen3RGBtoRGBYPlusEncodeCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (242/257)
+MaxTotalThreadsPerThreadGroup: SkewHCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (243/257)
+MaxTotalThreadsPerThreadGroup: SkewVCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (244/257)
+MaxTotalThreadsPerThreadGroup: SolidFrameTexCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (245/257)
+MaxTotalThreadsPerThreadGroup: SortPhase0HistogramsZeroCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (246/257)
+MaxTotalThreadsPerThreadGroup: SortPhase1HistogramsCalcCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (247/257)
+MaxTotalThreadsPerThreadGroup: SortPhase2HistogramsScanCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (248/257)
+MaxTotalThreadsPerThreadGroup: SortPhase3ScatterCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (249/257)
+MaxTotalThreadsPerThreadGroup: SortPhase4LocalSortCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (250/257)
+MaxTotalThreadsPerThreadGroup: SortPhase5UnsortedFinalCopyCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (251/257)
+MaxTotalThreadsPerThreadGroup: TextureAffinePlusCompositeCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (252/257)
+MaxTotalThreadsPerThreadGroup: TextureEncodeLogYCCCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (253/257)
+MaxTotalThreadsPerThreadGroup: TextureUnitInfoCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (254/257)
+MaxTotalThreadsPerThreadGroup: WarpCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (255/257)
+MaxTotalThreadsPerThreadGroup: Warp4X4Compute,512,512
+Apple M1 Pro: Building compute pipeline state (256/257)
+MaxTotalThreadsPerThreadGroup: WarpPlanesDifferentCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (257/257)
+MaxTotalThreadsPerThreadGroup: WarpPlanesDifferent4X4Compute,1024,1024
+Apple M1 Pro: Finished building compute pipeline states.
 Begin cr_gpu_test::RunSanity (quick = False, doing init = True).
-Bounds of image A are: 1000 and 1000
-Bounds of image B are: 1000 and 1000
+Image A: H = 1000, W = 1000, Planes = 4
+Image B: H = 1000, W = 1000, Planes = 4
 Completed cr_gpu_test::RunSanity successfully.
-GPU Init Status (part 2): I3_GPU3
+GPU Init Status (part 2): I4_GPU4
 GPU3 Hard Status Result (part 2): success
 GPU3 Soft Status Result (part 2): success
-GPU4 Hard Status Result (part 2): fail_config_disable
-GPU4 Soft Status Result (part 2): fail_insufficient_memory
+GPU4 Hard Status Result (part 2): success
+GPU4 Soft Status Result (part 2): success
+ BuildSwapChain 'loupeView' format 41
+TrimFootprint: 1241.2 MB purged from pools.
 CalculateAutoTone: atvSDP
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+sky inference: time (avg)=2.15 sec (2.15 sec), memory (baseline): 0.00 MB (210.00 MB)
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+DOMO v3: no override to run on GPU
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+TrimFootprint:  885.1 MB purged from pools.
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+TrimFootprint:  576.0 MB purged from pools.
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+TrimFootprint:  493.4 MB purged from pools.
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+TrimFootprint:  666.7 MB purged from pools.
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+TrimFootprint:  954.8 MB purged from pools.
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+Profile self-check: lcpCount=2771, dcpCount=3461
+ BuildSwapChain 'Discover Playback Loupe' format 41
+ BuildSwapChain 'loupeView' format 41
+TrimFootprint:  625.9 MB purged from pools.
+ BuildSwapChain 'Discover Playback Loupe' format 41
+ BuildSwapChain 'Discover Playback Loupe' format 41
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+ BuildSwapChain 'loupeView' format 41
+ BuildSwapChain 'loupeView' format 41
+ BuildSwapChain 'loupeView' format 41
+TrimFootprint:  156.6 MB purged from pools.
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+TrimFootprint: 1105.9 MB purged from pools.
+CalculateAutoTone: atvSDP
+ BuildSwapChain 'Discover Playback Loupe' format 41
+ BuildSwapChain 'Discover Playback Loupe' format 41
+CalculateAutoTone: atvSDP
+ BuildSwapChain 'loupeView' format 41
+ BuildSwapChain 'loupeView' format 41
+CalculateAutoTone: atvSDP
+TrimFootprint: 9961.9 MB purged from pools.
+ BuildSwapChain 'Discover Playback Loupe' format 41
+ BuildSwapChain 'Discover Playback Loupe' format 41
+ BuildSwapChain 'loupeView' format 41
+ BuildSwapChain 'loupeView' format 41
+TrimFootprint:  315.0 MB purged from pools.
+TrimFootprint:  181.6 MB purged from pools.
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atv2013c
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atvSDP
+cr_ml_model_eval_context::Run tilesPerBatch=4
+cr_ml_model_eval_context::Run tilesPerBatch=4
+cr_ml_model_eval_context::Run tilesPerBatch=4
+cr_ml_model_eval_context::Run tilesPerBatch=4
+cr_ml_model_eval_context::Run tilesPerBatch=4
+cr_ml_model_eval_context::Run tilesPerBatch=4
+cr_ml_model_eval_context::Run tilesPerBatch=4
+cr_ml_model_eval_context::Run tilesPerBatch=4
+cr_ml_model_eval_context::Run tilesPerBatch=4
+cr_ml_model_eval_context::Run tilesPerBatch=4
+cr_ml_model_eval_context::Run tilesPerBatch=4
+cr_ml_model_eval_context::Run tilesPerBatch=4
+cr_ml_model_eval_context::Run tilesPerBatch=4
+TrimFootprint: 1311.8 MB purged from pools.
+cr_ml_model_eval_context::Run tilesPerBatch=4
+TrimFootprint:    0.0 MB purged from pools.
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atvSDP
+TrimFootprint: 10840.5 MB purged from pools.
+TrimFootprint:  517.7 MB purged from pools.
+CalculateAutoTone: atvSDP
+TrimFootprint:  544.1 MB purged from pools.
+TrimFootprint: 3013.4 MB purged from pools.
+TrimFootprint:  918.1 MB purged from pools.
+TrimFootprint:   21.0 MB purged from pools.
+TrimFootprint:   42.3 MB purged from pools.
+TrimFootprint:   22.7 MB purged from pools.
+CalculateAutoTone: atvSDP
+CalculateAutoTone: atvSDP
+TrimFootprint:  754.3 MB purged from pools.
+TrimFootprint:   36.0 MB purged from pools.
+TrimFootprint:   68.0 MB purged from pools.
+TrimFootprint:  119.2 MB purged from pools.
+TrimFootprint:    2.8 MB purged from pools.
+TrimFootprint:    2.8 MB purged from pools.
+TrimFootprint:  390.9 MB purged from pools.
+TrimFootprint:  221.6 MB purged from pools.
+CalculateAutoTone: atvSDP
+TrimFootprint:   59.5 MB purged from pools.
+TrimFootprint:   65.4 MB purged from pools.
+CalculateAutoTone: atvSDP
+TrimFootprint:  876.7 MB purged from pools.
+CalculateAutoTone: atv2013c
+TrimFootprint:  346.9 MB purged from pools.
+TrimFootprint:  419.3 MB purged from pools.
+TrimFootprint:  290.8 MB purged from pools.
+TrimFootprint:  100.5 MB purged from pools.
+TrimFootprint:    0.0 MB purged from pools.
+*** Warning: Scratch Manager CPU fRealMemoryAllocated: 2860704 ***
 Terminate GPU system
+Resource count and estimated mem use:
+  cr_thread:       0 (   0.000 MB)
+  cr_context:      0 (   0.000 MB)
+  cr_negative:     0 (   0.000 MB)
+  cr_image:      107 (   4.464 MB)
+  cr_image(c):     0 (   0.000 MB)
+  buffers:         0 (   0.000 MB)
+  vm:              0 /       0 MB
 cr_sdk_terminate

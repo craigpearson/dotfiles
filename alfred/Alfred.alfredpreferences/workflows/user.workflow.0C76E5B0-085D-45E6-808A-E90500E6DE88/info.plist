@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string></string>
+	<key>connections</key>
+	<dict>
+		<key>97AA851A-0D24-4D61-B878-671602B6E980</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>97EF9097-5B0A-4FC6-A2A0-A39D6D5E73B6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string></string>
+	<key>description</key>
+	<string></string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Mouse mover</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>jiggle</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string></string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>97AA851A-0D24-4D61-B878-671602B6E980</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>ObjC.import('stdlib')
+ObjC.import('CoreGraphics');
+
+// Move mouse cursor to specified position
+function moveMouse(x, y) {
+  let pos = $.CGPointMake(x, y);
+  let event = $.CGEventCreateMouseEvent(null, $.kCGEventMouseMoved, pos, $.kCGMouseButtonLeft);
+  $.CGEventPost($.kCGHIDEventTap, event);
+}
+
+
+// Run script
+function run() {
+  let appName = Application('System Events').processes.whose({frontmost: {'=': true}})[0].name();
+  console.log(`frontmost application = ${appName}`);
+  let app = Application(appName);
+  app.includeStandardAdditions = true;
+
+  let win = app.windows[0],
+    bounds = win.properties().bounds;
+
+  // Calculate centre of window
+  let x = Math.trunc(bounds.x + (bounds.width / 2)),
+    y = Math.trunc(bounds.y + (bounds.height / 2));
+
+  console.log('centre = ' + x + 'x' + y);
+  moveMouse(x, y);
+}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>97EF9097-5B0A-4FC6-A2A0-A39D6D5E73B6</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>97AA851A-0D24-4D61-B878-671602B6E980</key>
+		<dict>
+			<key>xpos</key>
+			<real>85</real>
+			<key>ypos</key>
+			<real>210</real>
+		</dict>
+		<key>97EF9097-5B0A-4FC6-A2A0-A39D6D5E73B6</key>
+		<dict>
+			<key>xpos</key>
+			<real>270</real>
+			<key>ypos</key>
+			<real>395</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
